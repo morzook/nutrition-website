@@ -1308,6 +1308,7 @@ form {
 .article-topic{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
+    padding-top: 10px ;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -1330,8 +1331,9 @@ form {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-
 }
+
+/* blog section media break  */
 
 @media screen and (max-width: 1200px) {
 
@@ -1359,6 +1361,16 @@ form {
 
 .article-topic{
     font-size: 2rem;
+    margin-top: -10px;
+}
+
+.article-paragragh{
+    margin-top: 5px;
+
+}
+
+.author{
+    margin-top: -10px;
 }
 
 .blog-paragraph-1{
@@ -1366,6 +1378,7 @@ form {
 }
 
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -1389,13 +1402,29 @@ form {
 
     .article-2, .article-3 {
         background: rgb(248, 242, 242);
-        height: 40%;
+        height: 45%;
         width: 95%;
         padding: 5px;
     }
 
     .article-topic{
         font-size: 1.5rem;
+        margin-top: -10px;
+
+    }
+
+    .article-paragragh{
+        margin-top: -10px;
+    }
+
+    .author{
+        margin-top: -15px;
+    }
+
+    .author-image{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
     }
 
 }
@@ -1480,6 +1509,14 @@ form {
     .article-topic{
         font-size: 25px;
         padding-top: 10px;
+    }
+
+    .article-paragragh{
+        margin-top: 0px;
+    }
+
+    .author{
+        margin-top: 0;
     }
 
 }
