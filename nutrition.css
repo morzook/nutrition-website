@@ -1015,13 +1015,14 @@ form {
         height: 65%;
     } 
 
+
     .tab-panel{
     padding: 5px 0;
     text-align: center;
     }
 
     .tabset > label {
-        margin-left: 1px;
+        margin-left: 5px;
         padding: 1px 1px 12px;
         font-weight: 500;
       }
