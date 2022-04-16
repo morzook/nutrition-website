@@ -20,7 +20,7 @@ body{
     /* box-shadow: 0px 5px 10px 0px #aaa; */
     position: fixed;
     width: 100%;
-    background: #fff;
+    background-color: #cedad3;
     color: #000;
     opacity: 0.85;
     z-index: 100;
@@ -41,6 +41,7 @@ body{
 .logo{
     order: 1;
     font-size: 2.3rem;
+    margin-left: 20px;
 }
 
 .menu-items li{
@@ -57,7 +58,7 @@ body{
 }
 
 .navbar a:hover{
-    color: #117964;
+    color: #228B22;
 }
 
 @media (max-width: 768px){
@@ -186,6 +187,7 @@ body{
 .header{
     height: 80vh;
     background-image:url("bg.PNG");
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: flex-start;
@@ -263,9 +265,7 @@ body{
 @media screen and (max-width: 768px) {
     .header{
         height: 90vh;
-        background-image:url("bg.PNG");
-        background-size:cover;
-        background-repeat: no-repeat;
+        background-image:url("bg-2.PNG");
         justify-content: center;
 
     }
@@ -288,12 +288,12 @@ body{
     
     .header-paragraph{
         width: 70%;
-        margin-top: -20px;
+        margin-top: -5px;
         text-align: center;    
     }
     
     .header-buttons{
-        margin-top: 30px;
+        margin-top: 50px;
         width: 60%;
         display: flex;
         justify-content: space-between;
@@ -317,6 +317,8 @@ body{
     .header{
         height: 80vh;
         max-width: 480px;
+        background-image:url("bg-3.PNG");
+
     }
     
     .header-content{
@@ -329,7 +331,7 @@ body{
     .header-h1{
         height: 25%;
         width: 90%;
-        font-size: 42px;
+        font-size: 2.5rem;
         margin-top: 50px;
         text-align: center;
     }
@@ -347,7 +349,7 @@ body{
 
     .header-button-1{
         width: 47%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .header-button-2{
@@ -590,6 +592,10 @@ body{
         width: 70%;
         height: 25%;
     }
+
+    #box-heading-2{
+        font-size: 14px;
+    }
 }
 
 /* ABOUT US SECTION */
@@ -607,9 +613,9 @@ body{
 .about-us-container-1{
     display: flex;
     flex-direction: row;
-    height: 40%;
+    height: 30%;
     width: 70%;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .about-us-image-container{
@@ -660,8 +666,10 @@ body{
    Styling
   */
   .tabset > label {
+      border: 2px solid pink;
     position: relative;
     display: inline-block;
+    margin-left: 15px;
     padding: 15px 15px 25px;
     border: 1px solid transparent;
     border-bottom: 0;
@@ -698,7 +706,7 @@ body{
   }
   
   .tab-panel {
-    padding: 30px 0;
+    padding: 5px 0;
     border-top: 1px solid #ccc;
   }
 
@@ -809,9 +817,9 @@ input {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 40%;
-        width: 85%;
-        margin-top: -100px;
+        height: 30%;
+        width: 90%;
+        margin-top: -40px;
     }
 
     #about-small-header{
@@ -819,9 +827,9 @@ input {
         /* margin-top: -40px; */
     }
     #about-large-header{
-        height: 15%;
-        width: 85%;
-        margin-top: -120px;
+        height: 12%;
+        width: 90%;
+        margin-top: -80px;
     }
 
     .about-us-image-container{
@@ -843,6 +851,12 @@ input {
     .tabs{
         width: 49%;
     }
+
+    .tabset > label {
+        margin-left: 28px;
+        padding: 2px 2px 15px;
+        font-weight: 500;
+      }
 
     .about-us-container-2{
         height: 20%;
@@ -885,7 +899,7 @@ form {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        height: 40%;
+        height: 30%;
         width: 95%;
         margin-top: -200px;
     }
@@ -896,7 +910,7 @@ form {
     }
     #about-large-header{
         height: 15%;
-        margin-top: -200px;
+        margin-top: -160px;
     }
 
     .about-us-image-container{
@@ -917,6 +931,12 @@ form {
     .tabs{
         width: 55%;
     }
+
+     .tabset > label {
+        margin-left: 10px;
+        padding: 2px 2px 12px;
+        font-weight: 500;
+      }
 
     .about-us-container-2{
         margin-top: -150px;
@@ -956,7 +976,7 @@ form {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 50%;
+        height: 40%;
         width: 95%;
         margin-top: 1px;
     }
@@ -999,8 +1019,8 @@ form {
     }
 
     .tabset > label {
-        margin-left: 10px;
-        padding: 2px 2px 12px;
+        margin-left: 2px;
+        padding: 1px 1px 12px;
         font-weight: 500;
       }
 
@@ -1067,7 +1087,7 @@ form {
 }
 
 .recipe-card-1, .recipe-card-2, .recipe-card-3, .recipe-card-4{
-    width: 23%;
+    width: 24%;
     height: 80%; 
     display: flex;
     flex-direction: column;
@@ -1122,7 +1142,7 @@ form {
 
     .recipe-card-1, .recipe-card-2, .recipe-card-3, .recipe-card-4{
         width: 18rem;
-        height: 48%; 
+        height: 50%; 
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
@@ -1164,7 +1184,7 @@ form {
 
     .recipe-card-1, .recipe-card-2, .recipe-card-3, .recipe-card-4{
         width: 15.5rem;
-        height: 43%; 
+        height: 45%; 
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
@@ -1207,7 +1227,7 @@ form {
     }
 
     .recipe-card-1, .recipe-card-2, .recipe-card-3, .recipe-card-4{
-        width: 75%;
+        width: 80%;
         height: 23%; 
         display: flex;
         flex-direction: column;
@@ -1253,7 +1273,6 @@ form {
 }
 
 #blog-header-large{
-   /* margin-top: -5px; */
    width: 100%;
    font-size: 4rem;
 }
@@ -1266,7 +1285,6 @@ form {
     display: inline;
     text-align: start;
     width: 70%;
-
 }
 
 .blog-image-container{
@@ -1277,8 +1295,8 @@ form {
 }
 
 .blog-section-container-1-image{
-    width: 400px;
-    height: 360px;
+    width: 330px;
+    height: 300px;
 
 }
 
@@ -1296,7 +1314,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px;
 }
 
 .article-line-1{
@@ -1307,7 +1325,7 @@ form {
 
 .article-topic{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 10px ;
     font-weight: bold;
     text-transform: capitalize;
@@ -1339,7 +1357,11 @@ form {
 
     .blog{
         margin-top: 40px;
+
     }
+    .blog-image-container{
+    width: 90%;
+}
 
     #blog-header-large{
         width: 100%;
@@ -1347,6 +1369,7 @@ form {
      }
 
 .blog-section-container{
+    justify-content: space-around;
     width: 95%;
 }
 
@@ -1390,6 +1413,10 @@ form {
     .blog-section-container-1{
         width: 48%;
     }
+
+    .blog-image-container{
+    width: 90%;
+}
 
     .blog-section-container-1-image{
         width: 95%;
@@ -1451,13 +1478,14 @@ form {
     }
     
     .blog-section-container-1{
+        align-items: center;
        height: 50%;
        width: 100%;
     }
     
     #blog-header-large{
        width: 100%;
-       font-size: 3rem;
+       font-size: 2.2rem;
     }
     
     .blog-paragraph-1{
@@ -1484,6 +1512,7 @@ form {
     }
     
     .blog-section-container-2{
+        align-items: center;
         justify-content: space-between;
         height: 50%;
         width: 98%;
@@ -1519,5 +1548,201 @@ form {
         margin-top: 0;
     }
 
+}
+
+/* FOOTER SECTION */
+.footer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-images-container{
+   width: 100%;
+   height: 60%;
+   display: flex;
+   flex-direction: row;
+}
+
+.footer-image{
+    width: 14.28%;
+    height: 80%;
+}
+
+.footer-info-container{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.copyright{
+    text-align: center;
+    width: 20%;
+    height: 100%;
+
+}
+
+.recent-recipes{
+    width: 100%;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.contact-information{
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.footer-heading{
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.footer-paragraph{
+    margin-top: 40px;
+}
+
+.footer-ul{
+    margin-top: 30px;
+}
+
+.need-help{
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.social-icons{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -25px;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .footer{
+        height: 50vh;
+    }
+
+   .footer-image{
+    width: 14.28%;
+    height: 70%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        height: 50vh;
+    }
+ 
+    .footer-image{
+     width: 14.28%;
+     height: 60%;
+ }
+
+ .footer-info-container{
+    width: 90%;
+    height: 50%;
+}
+
+.recipes, .copyright, .contact-information, .need-help{
+    width: 23%;
+}
+
+li{
+    margin-left: -30px;
+}
+
+.footer-ul{
+    margin-top: -10px;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer{
+        height: 100vh;
+        margin-top: -40px;
+        
+    }
+
+.footer-images-container{
+    height: 15%;
+}
+ 
+    .footer-image{
+     width: 14.28%;
+     height: 60%;
+ }
+
+ .footer-info-container{
+    width: 98%;
+    height: 70%;
+    /* flex-wrap: wrap; */
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.need-help, .contact-information{
+    box-shadow: 2px 3px 2px 2px rgba(0,0,0,0.2);
+    width: 90%;
+    height: 25%;
+}
+
+.copyright {
+    width: 90%;
+    height: 10%;
+
+}
+
+.recent-recipes{
+    box-shadow: 2px 3px 2px 2px rgba(0,0,0,0.2);
+    width: 90%;
+    height: 30%;
+}
+
+#footer-heading{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.footer-paragraph{
+    margin-top: 7px;
+}
+
+.footer-ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -25px;
+}
+
+li{
+    width: 45%;
+    margin-top: 25px;
+    margin-left: -25px; 
+}
 }
 
