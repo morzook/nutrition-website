@@ -628,12 +628,12 @@ body{
 }
 
 .about-us-image-1{
-    width: 200px;
+    width: 180px;
     height: 350px;
 }
 .about-us-image-2{
-    width: 200px;
-    height: 360px;
+    width: 180px;
+    height: 350px;
 }
 
 /*
@@ -838,13 +838,13 @@ input {
     }
 
     .about-us-image-1{
-        width: 180px;
+        width: 160px;
         height: 300px;  
 
     }
 
     .about-us-image-2{
-        width: 180px;
+        width: 160px;
         height: 300px;  
     }
 
@@ -992,8 +992,8 @@ form {
     .about-us-image-container{
         flex-direction: row;
         width: 99%;
-        height: 20%;
-        margin-top: 0;
+        height: 30%;
+        margin-top: -100px;
     }
 
     .about-us-image-1{
@@ -1008,7 +1008,7 @@ form {
     }
 
     .tabs{
-        margin-top: 40px;
+        margin-top: -40px;
         width: 99%;
         height: 60%;
     } 
@@ -1027,7 +1027,7 @@ form {
     .about-us-container-2{
         height: 30%;
         width: 100%;
-        margin-top: 20px;
+        margin-top: -20px;
         
     }
 
