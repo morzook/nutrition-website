@@ -976,6 +976,7 @@ form {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         height: 40%;
         width: 95%;
         margin-top: 1px;
@@ -1008,9 +1009,10 @@ form {
     }
 
     .tabs{
+       
         margin-top: -40px;
-        width: 99%;
-        height: 60%;
+        width: 97%;
+        height: 65%;
     } 
 
     .tab-panel{
@@ -1019,7 +1021,7 @@ form {
     }
 
     .tabset > label {
-        margin-left: 2px;
+        margin-left: 1px;
         padding: 1px 1px 12px;
         font-weight: 500;
       }
