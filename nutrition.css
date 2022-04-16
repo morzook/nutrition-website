@@ -666,10 +666,9 @@ body{
    Styling
   */
   .tabset > label {
-      border: 2px solid pink;
     position: relative;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 20px;
     padding: 15px 15px 25px;
     border: 1px solid transparent;
     border-bottom: 0;
@@ -680,6 +679,7 @@ body{
   .tabset > label::after {
     content: "";
     position: absolute;
+    margin-left: 25px;
     left: 15px;
     bottom: 10px;
     width: 22px;
@@ -853,7 +853,7 @@ input {
     }
 
     .tabset > label {
-        margin-left: 28px;
+        margin-left: 20px;
         padding: 2px 2px 15px;
         font-weight: 500;
       }
@@ -1001,8 +1001,8 @@ form {
     }
 
     .about-us-image-2{
-        width: 120px;
-        height: 200px;  
+        width: 100px;
+        height: 280px;  
         transform: rotate(90deg);
 
     }
@@ -1490,11 +1490,14 @@ form {
     
     .blog-paragraph-1{
         width: 99%;
+        padding-left: 15px;
     }
 
     .view-more{
         text-align: start;
         width: 100%;
+        padding-left: 15px;
+
     
     }
     
